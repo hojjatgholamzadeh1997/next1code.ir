@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Vazir-Thin;
+  src: url(../assets/fonts/Vazir-Thin.ttf);
+}
+
+@font-face {
   font-family: Vazir-Medium;
   src: url(../assets/fonts/Vazir-Medium.ttf);
 }
@@ -9,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   height: 112px;
+  padding: 0 20px;
 }
 
 /* header */ /* right */
@@ -111,10 +117,6 @@ header .right nav ul li.courses-page ul li:hover {
   transition: 0.3s;
 }
 
-header .right nav ul li.courses-page ul hr {
-  border-color: rgba(0, 0, 0, 0.1);
-}
-
 /* header */ /* left */
 header .left {
   display: flex;
@@ -186,4 +188,15 @@ main section.page-background p {
 main section.page-background i {
   color: #fff;
   font-size: 200px;
+}
+
+/* main */ /* section pre-sale-courses */
+main section.pre-sale-courses {
+  font-family: Vazir-Thin;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 50px 20px;
+}
+
+main section.pre-sale-courses h2 {
+  padding-bottom: 25px;
 }

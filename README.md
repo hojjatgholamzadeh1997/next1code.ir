@@ -31,11 +31,16 @@
     + assets
       + fonts
         + Vazir-Medium.ttf
+        + Vazir-Thin.ttf
       + images
         + next1code-logo.png
+        + nextjs-course.jpg
+        + nodejs-course.jpg
         + page-background.jpg
+        + tailwindcss-course.jpg
       + favicon.png
     + css
+      + card.css
       + reset.css
       + responsive.css
       + style.css
