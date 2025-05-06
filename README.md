@@ -33,6 +33,7 @@
         + Vazir-Medium.ttf
         + Vazir-Thin.ttf
       + images
+        + bootstrap-course.png
         + git-github-course.jpg
         + next1code-logo.png
         + nextjs-course.jpg
@@ -40,8 +41,11 @@
         + npm-course.jpg
         + page-background.jpg
         + reactjs-course.jpg
+        + reactjs-libraries-course.jpg
+        + redux-course.jpg
         + regex-course.jpg
         + tailwindcss-course.jpg
+        + telegram-bot-with-nodejs-course.jpg
       + favicon.png
     + css
       + fonts.css

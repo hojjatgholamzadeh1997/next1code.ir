@@ -145,3 +145,14 @@ section.gift-courses ul li {
   list-style-type: disc;
   margin: 10px 0;
 }
+
+/* main */ /* held-courses */
+section.held-courses {
+  font-family: Vazir-Thin;
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 50px;
+}
+
+section.held-courses h2 {
+  padding-bottom: 25px;
+}
