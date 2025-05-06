@@ -1,6 +1,88 @@
+/* Responsive using Flexbox & Bootstrap Breakpoints */
+.container {
+  padding: 0 10px;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* .col-Number1 ---> Patern No. 1 */
+/* .col-Number2 ---> Patern No. 2 */
+.col-Number1 {
+  flex-basis: 100%;
+  padding: 25px;
+}
+
+.col-Number2 {
+  flex-basis: 100%;
+  padding: 25px;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+  .col-Number1 {
+    flex-basis: 100%;
+  }
+  .col-Number2 {
+    flex-basis: 100%;
+  }
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* md */
+  .col-Number1 {
+    flex-basis: 50%;
+  }
+  .col-Number2 {
+    flex-basis: 50%;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* lg */
+  .col-Number1 {
+    flex-basis: 50%;
+  }
+  .col-Number2 {
+    flex-basis: 50%;
+  }
+  .container {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* xl */
+  .col-Number1 {
+    flex-basis: 33.33%;
+  }
+  .col-Number2 {
+    flex-basis: 25%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /* xxl */
+  .col-Number1 {
+    flex-basis: 33.33%;
+  }
+  .col-Number2 {
+    flex-basis: 25%;
   }
 }

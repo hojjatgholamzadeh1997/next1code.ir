@@ -1,0 +1,191 @@
+/* header */
+header {
+  font-family: Vazir-Medium;
+  display: flex;
+  justify-content: space-between;
+  height: 112px;
+}
+
+/* header */ /* right */
+header .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+/* header */ /* right */ /* image */
+header .right img {
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
+
+/* header */ /* right */ /* navbar */
+header .right nav {
+  display: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 25px 0;
+}
+
+header .right nav ul {
+  display: flex;
+  gap: 35px;
+  padding: 25px 0;
+}
+
+header .right nav ul li {
+  padding: 25px 0;
+}
+
+header .right nav ul li:hover span {
+  cursor: pointer;
+  color: #ff7400;
+  transition: color 0.4s;
+}
+
+header .right nav ul li.home-page {
+  color: #ff7400;
+}
+
+header .right nav ul li.courses-page {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+header .right nav ul li.courses-page i {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+header .right nav ul li.courses-page:hover i {
+  cursor: pointer;
+  color: #ff7400;
+  transition: color 0.4s;
+}
+
+header .right nav ul li.courses-page:hover i.bi-chevron-down {
+  display: none;
+}
+
+header .right nav ul li.courses-page i.bi-chevron-up {
+  display: none;
+}
+
+header .right nav ul li.courses-page:hover i.bi-chevron-up {
+  display: inline-block;
+}
+
+header .right nav ul li.courses-page ul {
+  position: absolute;
+  top: 65px;
+  right: -15px;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  width: 240px;
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header .right nav ul li.courses-page:hover ul {
+  display: flex;
+}
+
+header .right nav ul li.courses-page ul li {
+  padding: 0;
+}
+
+header .right nav ul li.courses-page ul li:hover {
+  cursor: pointer;
+  color: #ff7400;
+  transition: 0.3s;
+}
+
+/* header */ /* left */
+header .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.5px;
+}
+
+header .left button {
+  border-radius: 7.5px;
+}
+
+/* header */ /* left */ /* cart */
+header .left button.cart {
+  display: none;
+  position: relative;
+  background-color: #ebebeb;
+  padding: 10px 15px;
+}
+
+header .left button.cart:hover {
+  background-color: #cfcdcd;
+}
+
+header .left button.cart i {
+  font-size: 20px;
+}
+
+header .left button.cart .cart-count {
+  position: absolute;
+  background-color: #ff7400;
+  color: #fff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  top: 25px;
+  right: 7.5px;
+}
+
+/* header */ /* left */ /* login-register */
+header .left button.login-register {
+  background-color: #ff7400;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+header .left button.login-register:hover {
+  background-color: #ff5e00;
+}
+
+/* header */ /* left */ /* menu */
+header .left button.menu {
+  display: block;
+  background-color: #ebebeb;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+header .left button.menu:hover {
+  background-color: #cfcdcd;
+}
+
+header .left button.menu i {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+  header .left button.cart {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* lg */
+  header .right nav {
+    display: flex;
+  }
+  header .left button.menu {
+    display: none;
+  }
+}

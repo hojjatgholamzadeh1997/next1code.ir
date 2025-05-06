@@ -1,0 +1,121 @@
+/* main */
+
+/* main */ /* page-background */
+section.page-background {
+  height: 418px;
+  background-image: url(../assets/images/page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+section.page-background p {
+  color: #ffaa70;
+  font-family: Vazir-Medium;
+  font-size: 20px;
+}
+
+section.page-background i {
+  color: #fff;
+  font-size: 200px;
+}
+
+/* main */ /* pre-sale-courses */
+section.pre-sale-courses {
+  font-family: Vazir-Thin;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.pre-sale-courses h2 {
+  padding-bottom: 25px;
+}
+
+/* main */ /* pre-sale-courses */ /* course-card-item */
+.course-card-item {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.course-card-item:hover {
+  transition: 0.1s;
+  scale: 1.01;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-image */
+.course-card-item .course-card-image img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.course-card-item .course-card-image img:hover {
+  cursor: pointer;
+}
+
+/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-title */
+.course-card-item .course-card-title h3 {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.course-card-item .course-card-title h3:hover {
+  cursor: pointer;
+  color: #ff7400;
+  transition: 0.3s;
+}
+
+/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-teacher */
+.course-card-item .course-card-teacher {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  padding: 20px;
+  font-family: Vazir-Medium;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.course-card-item .course-card-teacher i {
+  font-size: 18px;
+}
+
+.course-card-item .course-card-teacher span {
+  font-size: 13px;
+}
+
+.course-card-item .course-card-teacher span:hover {
+  cursor: pointer;
+  color: #ff7400;
+  transition: 0.3s;
+}
+
+/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-footer */
+.course-card-item .course-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Vazir-Medium;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.course-card-item .course-card-footer .students-count {
+  display: flex;
+  gap: 10px;
+}
+
+.course-card-item .course-card-footer .students-count i {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+  section.page-background p {
+    font-size: 30px;
+  }
+}

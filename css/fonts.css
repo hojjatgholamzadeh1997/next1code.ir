@@ -1,0 +1,10 @@
+/* Fonts */
+@font-face {
+  font-family: Vazir-Thin;
+  src: url(../assets/fonts/Vazir-Thin.ttf);
+}
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../assets/fonts/Vazir-Medium.ttf);
+}
