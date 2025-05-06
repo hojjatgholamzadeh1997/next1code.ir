@@ -40,7 +40,9 @@
         + tailwindcss-course.jpg
       + favicon.png
     + css
-      + card.css
+      + fonts.css
+      + header.css
+      + main.css
       + reset.css
       + responsive.css
       + style.css
