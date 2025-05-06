@@ -41,6 +41,7 @@ section.pre-sale-courses h2 {
 .course-card-item {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  height: 100%;
 }
 
 .course-card-item:hover {
@@ -63,6 +64,7 @@ section.pre-sale-courses h2 {
 .course-card-item .course-card-title h3 {
   padding: 20px;
   font-size: 15px;
+  height: 85px;
 }
 
 .course-card-item .course-card-title h3:hover {
@@ -118,4 +120,28 @@ section.pre-sale-courses h2 {
   section.page-background p {
     font-size: 30px;
   }
+}
+
+/* main */ /* gift-courses */
+section.gift-courses {
+  font-family: Vazir-Thin;
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 50px;
+}
+
+section.gift-courses h2 {
+  padding-bottom: 25px;
+}
+
+section.gift-courses ul {
+  list-style-type: disc;
+  margin: 0px 35px 25px 0px;
+  color: #000;
+  font-family: Vazir-Medium;
+  font-size: 15px;
+}
+
+section.gift-courses ul li {
+  list-style-type: disc;
+  margin: 10px 0;
 }

@@ -33,10 +33,14 @@
         + Vazir-Medium.ttf
         + Vazir-Thin.ttf
       + images
+        + git-github-course.jpg
         + next1code-logo.png
         + nextjs-course.jpg
         + nodejs-course.jpg
+        + npm-course.jpg
         + page-background.jpg
+        + reactjs-course.jpg
+        + regex-course.jpg
         + tailwindcss-course.jpg
       + favicon.png
     + css
