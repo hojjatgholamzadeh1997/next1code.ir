@@ -6,7 +6,7 @@
 
   **Start Date** : 05 May 2025
 
-  **End Date** : Developing...
+  **End Date** : 07 May 2025
 
   **Idea from** : [https://next1code.ir](https://next1code.ir/)
 
@@ -47,13 +47,16 @@
         + regex-course.jpg
         + tailwindcss-course.jpg
         + telegram-bot-with-nodejs-course.jpg
+        + zarin-pal.png
       + favicon.png
     + css
       + fonts.css
+      + footer.css
       + header.css
       + main.css
       + reset.css
       + responsive.css
+      + style.css
     + About.txt
     + index.html
     + README.md

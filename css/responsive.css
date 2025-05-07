@@ -1,4 +1,5 @@
 /* Responsive using Flexbox & Bootstrap Breakpoints */
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -29,7 +30,6 @@
 .col-Number3 {
   flex-basis: 100%;
   padding: 15px;
-  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 576px) {

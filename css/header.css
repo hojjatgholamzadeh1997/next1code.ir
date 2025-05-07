@@ -7,7 +7,7 @@ header {
   padding: 0 20px;
 }
 
-/* header */ /* right */
+/* header right */
 header .right {
   display: flex;
   justify-content: center;
@@ -15,14 +15,14 @@ header .right {
   gap: 35px;
 }
 
-/* header */ /* right */ /* image */
+/* header right image */
 header .right img {
   width: 75px;
   height: 75px;
   cursor: pointer;
 }
 
-/* header */ /* right */ /* navbar */
+/* header right navbar */
 header .right nav {
   display: none;
   font-size: 14px;
@@ -108,7 +108,7 @@ header .right nav ul li.courses-page ul li:hover {
   transition: 0.3s;
 }
 
-/* header */ /* left */
+/* header left */
 header .left {
   display: flex;
   justify-content: center;
@@ -120,7 +120,7 @@ header .left button {
   border-radius: 7.5px;
 }
 
-/* header */ /* left */ /* cart */
+/* header left cart */
 header .left button.cart {
   display: none;
   position: relative;
@@ -147,7 +147,7 @@ header .left button.cart .cart-count {
   right: 7.5px;
 }
 
-/* header */ /* left */ /* login-register */
+/* header left login-register */
 header .left button.login-register {
   background-color: #ff7400;
   color: #fff;
@@ -158,7 +158,7 @@ header .left button.login-register:hover {
   background-color: #ff5e00;
 }
 
-/* header */ /* left */ /* menu */
+/* header left menu */
 header .left button.menu {
   display: block;
   background-color: #ebebeb;

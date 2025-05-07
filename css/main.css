@@ -1,6 +1,6 @@
 /* main */
 
-/* main */ /* page-background */
+/* main page-background */
 section.page-background {
   height: 418px;
   background-image: url(../assets/images/page-background.jpg);
@@ -25,7 +25,7 @@ section.page-background i {
   font-size: 200px;
 }
 
-/* main */ /* pre-sale-courses */
+/* main pre-sale-courses */
 section.pre-sale-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
@@ -36,7 +36,7 @@ section.pre-sale-courses h2 {
   margin-right: 25px;
 }
 
-/* main */ /* pre-sale-courses */ /* course-card-item */
+/* main pre-sale-courses course-card-item */
 .course-card-item {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -49,7 +49,7 @@ section.pre-sale-courses h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-image */
+/* main pre-sale-courses course-card-item course-card-image */
 .course-card-item .course-card-image img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -59,11 +59,12 @@ section.pre-sale-courses h2 {
   cursor: pointer;
 }
 
-/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-title */
+/* main pre-sale-courses course-card-item course-card-title */
 .course-card-item .course-card-title h3 {
   padding: 20px;
   font-size: 15px;
-  height: 85px;
+  height: 100px;
+  line-height: 35px;
 }
 
 .course-card-item .course-card-title h3:hover {
@@ -72,7 +73,7 @@ section.pre-sale-courses h2 {
   transition: 0.3s;
 }
 
-/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-teacher */
+/* main pre-sale-courses course-card-item course-card-teacher */
 .course-card-item .course-card-teacher {
   display: flex;
   justify-content: end;
@@ -96,7 +97,7 @@ section.pre-sale-courses h2 {
   transition: 0.3s;
 }
 
-/* main */ /* pre-sale-courses */ /* course-card-item */ /* course-card-footer */
+/* main pre-sale-courses course-card-item course-card-footer */
 .course-card-item .course-card-footer {
   display: flex;
   justify-content: space-between;
@@ -121,7 +122,7 @@ section.pre-sale-courses h2 {
   }
 }
 
-/* main */ /* gift-courses */
+/* main gift-courses */
 section.gift-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
@@ -143,9 +144,10 @@ section.gift-courses ul {
 section.gift-courses ul li {
   list-style-type: disc;
   margin: 15px 0;
+  line-height: 35px;
 }
 
-/* main */ /* held-courses */
+/* main held-courses */
 section.held-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
@@ -155,11 +157,12 @@ section.held-courses h2 {
   margin-right: 25px;
 }
 
-/* main */ /* why-next1code */
+/* main why-next1code */
 
 section.why-next1code {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
 }
 
 section.why-next1code h2 {
@@ -171,9 +174,10 @@ section.why-next1code > p {
   color: #000;
   margin-right: 25px;
   padding: 20px 0 0 0;
+  line-height: 35px;
 }
 
-/* main */ /* why-next1code */ /* why-next1code-card-item */
+/* main why-next1code why-next1code-card-item */
 .why-next1code-card-item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
@@ -188,4 +192,5 @@ section.why-next1code > p {
 .why-next1code-card-item p {
   font-family: Vazir;
   font-size: 15px;
+  line-height: 35px;
 }
