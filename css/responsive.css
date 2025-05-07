@@ -1,8 +1,4 @@
 /* Responsive using Flexbox & Bootstrap Breakpoints */
-.container {
-  padding: 0 10px;
-}
-
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -15,18 +11,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
+  padding: 25px;
 }
 
 /* .col-Number1 ---> Patern No. 1 */
 /* .col-Number2 ---> Patern No. 2 */
 .col-Number1 {
   flex-basis: 100%;
-  padding: 25px;
+  padding: 15px;
 }
 
 .col-Number2 {
   flex-basis: 100%;
-  padding: 25px;
+  padding: 15px;
 }
 
 @media screen and (min-width: 576px) {
@@ -36,9 +33,6 @@
   }
   .col-Number2 {
     flex-basis: 100%;
-  }
-  .container {
-    padding: 0 15px;
   }
 }
 
@@ -50,9 +44,6 @@
   .col-Number2 {
     flex-basis: 50%;
   }
-  .container {
-    padding: 0 20px;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -62,9 +53,6 @@
   }
   .col-Number2 {
     flex-basis: 50%;
-  }
-  .container {
-    padding: 0 25px;
   }
 }
 

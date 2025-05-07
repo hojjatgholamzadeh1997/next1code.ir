@@ -29,12 +29,11 @@ section.page-background i {
 section.pre-sale-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 section.pre-sale-courses h2 {
-  padding-bottom: 25px;
+  padding-top: 35px;
+  margin-right: 25px;
 }
 
 /* main */ /* pre-sale-courses */ /* course-card-item */
@@ -126,16 +125,16 @@ section.pre-sale-courses h2 {
 section.gift-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
-  padding-bottom: 50px;
 }
 
 section.gift-courses h2 {
   padding-bottom: 25px;
+  margin-right: 25px;
 }
 
 section.gift-courses ul {
   list-style-type: disc;
-  margin: 0px 35px 25px 0px;
+  margin: 0px 35px 20px 20px;
   color: #000;
   font-family: Vazir-Medium;
   font-size: 15px;
@@ -143,16 +142,15 @@ section.gift-courses ul {
 
 section.gift-courses ul li {
   list-style-type: disc;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 /* main */ /* held-courses */
 section.held-courses {
   font-family: Vazir-Thin;
   color: rgba(0, 0, 0, 0.7);
-  padding-bottom: 50px;
 }
 
 section.held-courses h2 {
-  padding-bottom: 25px;
+  margin-right: 25px;
 }
