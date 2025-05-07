@@ -32,6 +32,7 @@
       + fonts
         + Vazir-Medium.ttf
         + Vazir-Thin.ttf
+        + Vazir.ttf
       + images
         + bootstrap-course.png
         + git-github-course.jpg
@@ -53,7 +54,6 @@
       + main.css
       + reset.css
       + responsive.css
-      + style.css
     + About.txt
     + index.html
     + README.md
