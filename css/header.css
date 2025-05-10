@@ -4,11 +4,11 @@ header {
   display: flex;
   justify-content: space-between;
   height: 112px;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 /* header right */
-header .right {
+header .header-right {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,69 +16,69 @@ header .right {
 }
 
 /* header right image */
-header .right img {
+header .header-right img {
   width: 75px;
   height: 75px;
   cursor: pointer;
 }
 
 /* header right navbar */
-header .right nav {
+header .header-right nav {
   display: none;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
   padding: 25px 0;
 }
 
-header .right nav ul {
+header .header-right nav ul {
   display: flex;
   gap: 35px;
   padding: 25px 0;
 }
 
-header .right nav ul li {
+header .header-right nav ul li {
   padding: 25px 0;
 }
 
-header .right nav ul li:hover span {
+header .header-right nav ul li:hover span {
   cursor: pointer;
   color: #ff7400;
   transition: color 0.4s;
 }
 
-header .right nav ul li.home-page {
+header .header-right nav ul li.home-page {
   color: #ff7400;
 }
 
-header .right nav ul li.courses-page {
+header .header-right nav ul li.courses-page {
   display: flex;
   gap: 10px;
   position: relative;
 }
 
-header .right nav ul li.courses-page i {
+header .header-right nav ul li.courses-page i {
   color: rgba(0, 0, 0, 0.6);
 }
 
-header .right nav ul li.courses-page:hover i {
+header .header-right nav ul li.courses-page:hover i {
   cursor: pointer;
   color: #ff7400;
   transition: color 0.4s;
 }
 
-header .right nav ul li.courses-page:hover i.bi-chevron-down {
+header .header-right nav ul li.courses-page:hover i.bi-chevron-down {
   display: none;
 }
 
-header .right nav ul li.courses-page i.bi-chevron-up {
+header .header-right nav ul li.courses-page i.bi-chevron-up {
   display: none;
 }
 
-header .right nav ul li.courses-page:hover i.bi-chevron-up {
+header .header-right nav ul li.courses-page:hover i.bi-chevron-up {
   display: inline-block;
 }
 
-header .right nav ul li.courses-page ul {
+header .header-right nav ul li.courses-page ul {
   position: absolute;
   top: 65px;
   right: -15px;
@@ -94,49 +94,49 @@ header .right nav ul li.courses-page ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-header .right nav ul li.courses-page:hover ul {
+header .header-right nav ul li.courses-page:hover ul {
   display: flex;
 }
 
-header .right nav ul li.courses-page ul li {
+header .header-right nav ul li.courses-page ul li {
   padding: 0;
 }
 
-header .right nav ul li.courses-page ul li:hover {
+header .header-right nav ul li.courses-page ul li:hover {
   cursor: pointer;
   color: #ff7400;
   transition: 0.3s;
 }
 
 /* header left */
-header .left {
+header .header-left {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 12.5px;
 }
 
-header .left button {
+header .header-left button {
   border-radius: 7.5px;
 }
 
-/* header left cart */
-header .left button.cart {
+/* header left button cart */
+header .header-left button.cart {
   display: none;
   position: relative;
   background-color: #ebebeb;
   padding: 10px 15px;
 }
 
-header .left button.cart:hover {
+header .header-left button.cart:hover {
   background-color: #cfcdcd;
 }
 
-header .left button.cart i {
+header .header-left button.cart i {
   font-size: 20px;
 }
 
-header .left button.cart .cart-count {
+header .header-left button.cart .cart-count {
   position: absolute;
   background-color: #ff7400;
   color: #fff;
@@ -147,46 +147,46 @@ header .left button.cart .cart-count {
   right: 7.5px;
 }
 
-/* header left login-register */
-header .left button.login-register {
+/* header left button login-register */
+header .header-left button.login-register {
   background-color: #ff7400;
   color: #fff;
   padding: 15px 20px;
 }
 
-header .left button.login-register:hover {
+header .header-left button.login-register:hover {
   background-color: #ff5e00;
 }
 
-/* header left menu */
-header .left button.menu {
+/* header left button menu */
+header .header-left button.menu {
   display: block;
   background-color: #ebebeb;
   padding: 10px 15px;
   font-size: 20px;
 }
 
-header .left button.menu:hover {
+header .header-left button.menu:hover {
   background-color: #cfcdcd;
 }
 
-header .left button.menu i {
+header .header-left button.menu i {
   font-size: 20px;
 }
 
 @media screen and (min-width: 576px) {
   /* sm */
-  header .left button.cart {
+  header .header-left button.cart {
     display: inline-block;
   }
 }
 
 @media screen and (min-width: 992px) {
   /* lg */
-  header .right nav {
+  header .header-right nav {
     display: flex;
   }
-  header .left button.menu {
+  header .header-left button.menu {
     display: none;
   }
 }

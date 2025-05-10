@@ -1,15 +1,14 @@
 /* footer */
-
-footer .footer-up {
+footer .footer-up-fluid {
   background-color: #353338;
 }
 
-footer .footer-down {
+footer .footer-down-fluid {
   background-color: #312f34;
 }
 
 /* footer up */
-footer .up {
+footer .footer-up {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,22 +16,22 @@ footer .up {
 }
 
 /* footer up right */
-footer .up .right {
+footer .footer-up .footer-up-right {
   color: #fff;
   font-family: Vazir-Thin;
   width: 100%;
 }
 
-footer .up .right .title {
+footer .footer-up .footer-up-right .title {
   display: flex;
   gap: 10px;
 }
 
-footer .up .right .title h5 {
+footer .footer-up .footer-up-right .title h5 {
   font-size: 20px;
 }
 
-footer .up .right .title i {
+footer .footer-up .footer-up-right .title i {
   font-size: 35px;
   color: #ff7400;
 }
@@ -42,7 +41,7 @@ footer .up .right .title i {
   vertical-align: 0;
 }
 
-footer .up .right p {
+footer .footer-up .footer-up-right p {
   font-size: 15px;
   line-height: 35px;
   margin-top: 10px;
@@ -50,17 +49,17 @@ footer .up .right p {
 }
 
 /* footer up left */
-footer .up .left {
+footer .footer-up .footer-up-left {
   direction: ltr;
 }
 
-footer .up .left img {
+footer .footer-up .footer-up-left img {
   width: 80px;
   height: 110px;
 }
 
 /* footer down */
-footer .down {
+footer .footer-down {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,30 +69,30 @@ footer .down {
   padding: 40px 25px;
 }
 
-footer .down .right p {
+footer .footer-down .footer-down-right p {
   font-family: Vazir;
   font-size: 14px;
   line-height: 35px;
   text-align: center;
 }
 
-footer .down .left {
+footer .footer-down .footer-down-left {
   display: flex;
   gap: 15px;
 }
 
-footer .down .left i {
+footer .footer-down .footer-down-left i {
   cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
-  footer .up .right {
+  footer .footer-up .footer-up-right {
     width: 40%;
   }
-  footer .up {
+  footer .footer-up {
     flex-direction: row;
   }
-  footer .down {
+  footer .footer-down {
     flex-direction: row;
     justify-content: space-between;
   }
