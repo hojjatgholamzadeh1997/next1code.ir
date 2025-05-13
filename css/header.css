@@ -1,6 +1,6 @@
 /* header */
 header {
-  font-family: Vazir-Medium;
+  font-family: Vazir-Medium, sans-serif;
   display: flex;
   justify-content: space-between;
   height: 112px;

@@ -18,7 +18,7 @@ footer .footer-up {
 /* footer up right */
 footer .footer-up .footer-up-right {
   color: #fff;
-  font-family: Vazir-Thin;
+  font-family: Vazir-Thin, sans-serif;
   width: 100%;
 }
 
@@ -70,7 +70,7 @@ footer .footer-down {
 }
 
 footer .footer-down .footer-down-right p {
-  font-family: Vazir;
+  font-family: Vazir, sans-serif;
   font-size: 14px;
   line-height: 35px;
   text-align: center;
