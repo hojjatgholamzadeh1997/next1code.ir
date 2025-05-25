@@ -1,4 +1,4 @@
-/* Responsive using Flexbox & Bootstrap Breakpoints */
+/* Responsive Using Flexbox & Bootstrap Breakpoints */
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
